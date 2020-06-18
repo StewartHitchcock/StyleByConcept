@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "noto-sans", "sans-serif";
+  font-family: "Noto Sans", sans-serif;
   margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: 0px;
@@ -16,10 +16,47 @@ body {
   margin: auto;
 }
 
+.sec-ctn {
+  width: 100%;
+  background-color: white;
+}
+.sec-ctn .sec-ctn-conts {
+  margin-top: 82px;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sec-ctn .sec-ctn-conts h2 {
+  color: #2f2583;
+  margin-bottom: 25px;
+}
+.sec-ctn .sec-ctn-conts p {
+  width: 355px;
+  margin: 10px 0px 0px 10px;
+}
+.sec-ctn .sec-ctn-conts img {
+  width: 355px;
+  height: 181px;
+  border-left: 10px solid #2f2583;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.sec-ctn .sec-ctn-conts button {
+  background: #2f2583;
+  border-radius: 30px;
+  color: white;
+  margin: 10px 0px 0px 10px;
+}
+.sec-ctn .sec-ctn-conts button i {
+  margin-left: 20px;
+  font-size: 16px;
+}
+
 .contact {
   width: 100%;
   height: 40px;
-  background-color: grey;
+  background-color: #dddddd;
 }
 .contact .contact-conts {
   width: 1200px;
@@ -93,6 +130,18 @@ header .header-conts a {
 }
 .carousel .carousel-conts p {
   color: white;
+}
+
+.btn {
+  width: 175px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  text-align: left;
+  padding-left: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
