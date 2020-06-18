@@ -1,0 +1,30 @@
+.cntct-frm {
+    height: 565px;
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+
+    .cntct-frm-conts{
+        width: 1200px;
+
+        h4 {
+            color: $vph-blue;
+            font-size: 30px;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        .input{
+            height: 48px;
+            width: 500px;
+        }
+
+        .input:focus {
+            border: black;
+        }
+    }
+}

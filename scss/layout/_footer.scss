@@ -1,0 +1,36 @@
+footer{
+    height: 118px;
+    background-color: $vph-dark-blue;
+
+    .footer-cnts {
+        width: 1200px;
+        display: flex;
+        flex-direction: row;
+        color: white;
+        justify-content: space-between;
+    }
+
+    .footer-cnts-div {
+        margin-top: 30px;
+    }
+
+    .footer-cnts-cntct {
+        display: flex;
+        margin-top: 30px;
+        
+
+        p{
+            font-size: 12px;
+        }
+
+        a{
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+        .ftr-cnct-details {
+            margin: 10px;
+        }
+    }
+}

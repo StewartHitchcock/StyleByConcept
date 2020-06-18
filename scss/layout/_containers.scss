@@ -34,7 +34,6 @@
         button {
 
             background: $vph-blue;
-            border-radius: 30px;
             color: white;
             margin: 10px 0px 0px 10px;
 
@@ -46,3 +45,72 @@
     }
 }
 
+
+// Contains the information about vph
+
+.ter-ctn{
+    background-color: $vph-blue;
+    width: 100%;
+    margin-top: 50px;
+    height: 460px;
+    display: flex;
+    flex-direction: row;
+
+    .ter-ctn-conts {
+
+        width: 1200px;
+        text-align: left;
+        color: white;
+        height: 460px;
+
+        .ter-ctn-txt{
+            width: 485px;
+            
+        }
+
+        h4 {
+            text-transform:uppercase;
+            
+        }
+
+        h5 {
+            text-transform:uppercase;
+        }
+
+        button {
+            background-color: white;
+            color: black;
+            margin: auto;
+        }
+    }
+
+    img {
+        width: 755px;
+        height: 460px;
+    }
+}
+
+
+.quart-ctn {
+
+    height: 199px;
+    width: 100%;
+    background-color: white;
+
+    .quart-ctn-conts{
+        width: 1200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+
+        img {
+            margin-top: 50px;
+            height: 100px;
+            width: 200px;
+        }
+
+        
+    }
+
+}

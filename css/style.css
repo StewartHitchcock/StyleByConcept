@@ -1,9 +1,5 @@
 * {
-  box-sizing: border-box;
   font-family: "Noto Sans", sans-serif;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  padding-inline-start: 0px;
 }
 
 body {
@@ -14,6 +10,13 @@ body {
 
 .media {
   margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0px;
 }
 
 .sec-ctn {
@@ -44,13 +47,63 @@ body {
 }
 .sec-ctn .sec-ctn-conts button {
   background: #2f2583;
-  border-radius: 30px;
   color: white;
   margin: 10px 0px 0px 10px;
 }
 .sec-ctn .sec-ctn-conts button i {
   margin-left: 20px;
   font-size: 16px;
+}
+
+.ter-ctn {
+  background-color: #2f2583;
+  width: 100%;
+  margin-top: 50px;
+  height: 460px;
+  display: flex;
+  flex-direction: row;
+}
+.ter-ctn .ter-ctn-conts {
+  width: 1200px;
+  text-align: left;
+  color: white;
+  height: 460px;
+}
+.ter-ctn .ter-ctn-conts .ter-ctn-txt {
+  width: 485px;
+}
+.ter-ctn .ter-ctn-conts h4 {
+  text-transform: uppercase;
+}
+.ter-ctn .ter-ctn-conts h5 {
+  text-transform: uppercase;
+}
+.ter-ctn .ter-ctn-conts button {
+  background-color: white;
+  color: black;
+  margin: auto;
+}
+.ter-ctn img {
+  width: 755px;
+  height: 460px;
+}
+
+.quart-ctn {
+  height: 199px;
+  width: 100%;
+  background-color: white;
+}
+.quart-ctn .quart-ctn-conts {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.quart-ctn .quart-ctn-conts img {
+  margin-top: 50px;
+  height: 100px;
+  width: 200px;
 }
 
 .contact {
@@ -61,7 +114,7 @@ body {
 .contact .contact-conts {
   width: 1200px;
   justify-content: flex-end;
-  align-items: center;
+  align-content: center;
   display: flex;
 }
 .contact a {
@@ -70,6 +123,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
+  margin-top: 5px;
 }
 .contact a:first-of-type {
   margin-right: 20px;
@@ -132,6 +186,36 @@ header .header-conts a {
   color: white;
 }
 
+footer {
+  height: 118px;
+  background-color: #222f3e;
+}
+footer .footer-cnts {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-between;
+}
+footer .footer-cnts-div {
+  margin-top: 30px;
+}
+footer .footer-cnts-cntct {
+  display: flex;
+  margin-top: 30px;
+}
+footer .footer-cnts-cntct p {
+  font-size: 12px;
+}
+footer .footer-cnts-cntct a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+footer .footer-cnts-cntct .ftr-cnct-details {
+  margin: 10px;
+}
+
 .btn {
   width: 175px;
   height: 50px;
@@ -142,6 +226,42 @@ header .header-conts a {
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 700;
+}
+
+.submit-btn {
+  background-color: #2f2583;
+  height: 50px;
+  width: 142px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: none;
+}
+
+.cntct-frm {
+  height: 565px;
+  width: 100%;
+  background-color: white;
+  margin-top: 50px;
+}
+.cntct-frm .cntct-frm-conts {
+  width: 1200px;
+}
+.cntct-frm .cntct-frm-conts h4 {
+  color: #2f2583;
+  font-size: 30px;
+}
+.cntct-frm .cntct-frm-conts form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.cntct-frm .cntct-frm-conts .input {
+  height: 48px;
+  width: 500px;
+}
+.cntct-frm .cntct-frm-conts .input:focus {
+  border: black;
 }
 
 /*# sourceMappingURL=style.css.map */
