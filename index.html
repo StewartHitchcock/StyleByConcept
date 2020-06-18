@@ -7,6 +7,7 @@
         <title>Web Design Norfolk : Netmatters Website Design</title>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/ec34e9393d.js" crossorigin="anonymous"></script>
+        
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
@@ -71,7 +72,9 @@
                 <div class = 'ter-ctn-txt'>
                     <h4>VPH</h4>
                     <h5>Roofing and Scaffolding LTD</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut leo quis nunc egestas mollis at in lectus.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et ultrices nisl. Proin vitae nibh eu ipsum porta iaculis. Vestibulum ac gravida orci. Donec nisi turpis, tristique id nunc eget, eleifend finibus libero. Curabitur lectus enim, tristique ut massa tempor, tempus interdum lectus. Quisque nisi velit, elementum quis augue ac, porta gravida leo. Donec vestibulum eu ante et molestie.</p>
+                    <br>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut leo quis nunc egestas mollis at in lectus.</p>
                     <button class='btn'>Read More<i class="fas fa-arrow-right"></i></button>
                 </div>
@@ -81,25 +84,27 @@
         <div class ='cntct-frm'>
             <div class = 'cntct-frm-conts media'>
                 <h4>Contact Us</h4>
-                <form action="" method="POST">
+                <form name="myForm" action="" method="POST" onsubmit="return validateForm();">
+                    <div class='top-form'>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" class='input' required>
+                    
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" class='input' required>
+                    </div>
+                    <div class='bottom-form'>
+                        <label for="phone">Phone Number</label>
+                        <input type="text" id="phone" name="phone" class='input' required>
 
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" class='input'>
-
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email" class='input'>
-
-                    <label for="phone">Phone Number</label>
-                    <input type="text" id="phone" name="phone" class='input'>
-
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject" class='input'>
-
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" class='input'>
+                    </div>
                     <label for="message">Message</label>
-                    <textarea id="message" name="message"></textarea>
+                    <textarea id="message" name="message" required></textarea>
+                    
 
                     <!-- <input class='submit-btn' type="submit" value="Submit" class=“fa fa-input”> -->
-                    <button class='submit-btn'>Submit <i class="fas fa-arrow-right"></i></button>
+                    <button type="submit" form="myForm" class='submit-btn'>Submit <i class="fas fa-arrow-right"></i></button>
                 </form>
             </div>
         </div>
@@ -135,6 +140,7 @@
                 </div>
             </div>
         </footer>
+        <script src="js/contact-form.js"></script>
     </body>
 
 </html>

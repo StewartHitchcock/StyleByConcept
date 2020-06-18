@@ -33,6 +33,7 @@ body {
 .sec-ctn .sec-ctn-conts h2 {
   color: #2f2583;
   margin-bottom: 25px;
+  margin-left: 9px;
 }
 .sec-ctn .sec-ctn-conts p {
   width: 355px;
@@ -70,18 +71,33 @@ body {
   height: 460px;
 }
 .ter-ctn .ter-ctn-conts .ter-ctn-txt {
-  width: 485px;
+  width: 785px;
+  margin: auto;
 }
 .ter-ctn .ter-ctn-conts h4 {
   text-transform: uppercase;
+  margin: 46px 0px 0px 185px;
+  font-size: 25px;
 }
 .ter-ctn .ter-ctn-conts h5 {
   text-transform: uppercase;
+  margin-left: 180px;
+  font-size: 18px;
+}
+.ter-ctn .ter-ctn-conts p {
+  margin-left: 180px;
+  font-size: 14px;
 }
 .ter-ctn .ter-ctn-conts button {
   background-color: white;
   color: black;
-  margin: auto;
+  margin-left: 180px;
+  margin: 50px 0px 0px 185px;
+  font-size: 16px;
+}
+.ter-ctn .ter-ctn-conts button i {
+  margin-left: 15px;
+  font-size: 20px;
 }
 .ter-ctn img {
   width: 755px;
@@ -123,7 +139,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .contact a:first-of-type {
   margin-right: 20px;
@@ -239,29 +255,42 @@ footer .footer-cnts-cntct .ftr-cnct-details {
 }
 
 .cntct-frm {
-  height: 565px;
+  height: 561px;
   width: 100%;
   background-color: white;
   margin-top: 50px;
 }
+.cntct-frm h4 {
+  color: #2f2583;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
 .cntct-frm .cntct-frm-conts {
   width: 1200px;
 }
-.cntct-frm .cntct-frm-conts h4 {
-  color: #2f2583;
-  font-size: 30px;
-}
-.cntct-frm .cntct-frm-conts form {
+.cntct-frm .cntct-frm-conts .top-form {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+}
+.cntct-frm .cntct-frm-conts .bottom-form {
+  display: flex;
 }
 .cntct-frm .cntct-frm-conts .input {
   height: 48px;
-  width: 500px;
+  width: 585px;
+  margin-bottom: 50px;
 }
 .cntct-frm .cntct-frm-conts .input:focus {
   border: black;
+}
+.cntct-frm .cntct-frm-conts label {
+  width: 100px;
+  margin: 10px -20px 0px 2px;
+}
+.cntct-frm .cntct-frm-conts #message {
+  height: 120px;
+  width: 100%;
+  margin-bottom: 50px;
+  resize: none;
 }
 
 /*# sourceMappingURL=style.css.map */

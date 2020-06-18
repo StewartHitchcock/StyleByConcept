@@ -14,6 +14,7 @@
         h2 {
             color: $vph-blue;
             margin-bottom: 25px;
+            margin-left: 9px;
         }
 
         p{
@@ -64,23 +65,40 @@
         height: 460px;
 
         .ter-ctn-txt{
-            width: 485px;
-            
+            width: 785px;
+            margin: auto;
         }
 
         h4 {
             text-transform:uppercase;
-            
+            margin: 46px 0px 0px 185px;
+            font-size: 25px;
+
         }
 
         h5 {
             text-transform:uppercase;
+            margin-left:180px;
+            font-size: 18px;
+        }
+
+        p{
+            margin-left:180px;
+            font-size: 14px;
+            
         }
 
         button {
             background-color: white;
             color: black;
-            margin: auto;
+            margin-left:180px;
+            margin: 50px 0px 0px 185px; 
+            font-size: 16px;
+
+            i {
+                margin-left: 15px;
+                font-size: 20px;
+            }
         }
     }
 
