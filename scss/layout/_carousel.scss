@@ -29,6 +29,15 @@
             margin: 79px auto 0px;
             width: 328px;
             height: 262px;
+
+            .quote-1{
+                
+                transform: rotate(180deg);
+            }
+
+            .quote-2{
+                margin-left: 285px;
+            }
         }
 
         p:nth-of-type(2) {

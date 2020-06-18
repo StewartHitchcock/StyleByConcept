@@ -195,6 +195,12 @@ header .header-conts a {
   width: 328px;
   height: 262px;
 }
+.carousel .carousel-conts .carousel-conts-txt .quote-1 {
+  transform: rotate(180deg);
+}
+.carousel .carousel-conts .carousel-conts-txt .quote-2 {
+  margin-left: 285px;
+}
 .carousel .carousel-conts p:nth-of-type(2) {
   font-weight: bold;
 }
